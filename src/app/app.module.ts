@@ -12,6 +12,7 @@ import { PortafolioComponent } from './portafolio/portafolio.component';
 import { PiePaginaComponent } from './pie-pagina/pie-pagina.component';
 import { RouterModule } from '@angular/router';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +22,8 @@ import { RouterModule } from '@angular/router';
     ExperienciaComponent,
     EducacionComponent,
     PortafolioComponent,
-    PiePaginaComponent
+    PiePaginaComponent,
+    
   ],
   imports: [
     BrowserModule,

@@ -28,9 +28,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss", "node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "src/styles.scss", "node_modules/bootstrap/dist/css/bootstrap.min.css", "node_modules/font-awesome.css"
             ],
-            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"]
+            "scripts": ["node_modules/bootstrap/dist/js/bootstrap.bundle.min.js", "node_modules/@fortawesome-free/js/all.js"]
           },
           "configurations": {
             "production": {
