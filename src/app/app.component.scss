@@ -1,0 +1,48 @@
+.navbar .container-fluid, 
+.navbar-expand-lg .navbar-collapse, 
+.navbar-expand-lg .navbar-nav{
+  flex-direction: row;
+  align-items: flex-start;
+}
+@media (min-width: 992px) {
+    .navbar {
+      width: 28%;
+      height: 100vh;
+    }
+    form input {
+      margin-bottom: 0.7em;
+    }
+  }
+
+  .navbar-brand {
+    margin-left: 0.5em;
+    padding-bottom: 0;
+    border-bottom: 4px solid #464646;
+  }
+  .navbar {
+    align-items: flex-start;
+  }
+  #fondo{
+  
+  }
+
+  
+  h3 {
+    margin-top: 2rem;
+  }
+  
+  .row {
+    margin-bottom: 1rem;
+  }
+ 
+  [class*="col-"] {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
+  }
+  
+  hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
