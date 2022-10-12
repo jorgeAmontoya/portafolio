@@ -1,0 +1,19 @@
+.my-container{
+background-image: url(../../assets/1.jpg) ;
+     transition: 0.4s;
+     position: absolute;
+     left: 250px;
+     width: 100%;
+     height: 100%;
+}
+.active-cont{
+    margin-left: 250px;
+}
+
+#menu-btn{
+    background-color: blue ;
+    color: #fff;
+}
+menu-btn:focus{
+    box-shadow: 0 0 0 0.25rem #7952b344;
+}

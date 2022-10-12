@@ -1,21 +1,29 @@
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color:rgb(90, 94, 93);">
+<nav class="navbar navbar-expand d-flex flex-column align-item-start  " id="sidebar" style="background-color:rgb(90, 94, 93);">
     
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <button class="nav-link" href="#"(click)="infoPersonal()">acerca de mi <span class="sr-only"></span></button>
-        </li>
-        <li class="nav-item active">
-          <button class="nav-link" href="#"(click)="conocimientos()">conocimientos <span class="sr-only"></span></button>
-        </li>
-        <li class="nav-item">
-          <button class="nav-link" href="#"(click)="Experiencia()">Experiencia <span class="sr-only"></span></button>        </li>
-        <li class="nav-item dropdown">
-          <button class="nav-link" href="#"(click)="educacion()">Educacion <span class="sr-only"></span></button>        </li>
 
-        <li class="nav-item">
-          <button class="nav-link" href="#"(click)="portafolio()">portafolio <span class="sr-only"></span></button>        </li>
+
+    <a href="#" class="navbar-brand text-light mt-5"> 
+      <div class="display-5 font-weight-bold">portafolio</div>
+    </a>
+      <ul class="navbar-nav d-flex flex-column mt-5 w-100">
+
+        <li class="nav-item w-100">
+          <a  class="nav-link text-light pl-4" href="">acerca de mi</a>
+        </li>
+        <li class="nav-item active w-100">
+          <a   class="nav-link text-light pl-4" href="habilidades">conocimientos </a>
+        </li>
+        <li class="nav-item w-100">
+          <a   class="nav-link text-light pl-4" href="experiencia">Experiencia</a>       
+         </li>
+        <li class="nav-item dropdown w-100">
+          <a   class="nav-link text-light pl-4" href="educacion">Educacion </a>        
+        </li>
+
+        <li class="nav-item w-100">
+          <a   class="nav-link text-light pl-4" href="portafolio">portafolio </a>       
+         </li>
+
       </ul>
       
-    </div>
   </nav>
